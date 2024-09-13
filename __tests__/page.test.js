@@ -12,6 +12,11 @@ describe("creates an instance of page", () => {
 })
 
 test("testing wordCount", () => {
-    const page1 = new Page('Pride', 'and Predu');
-    expect(page1.wordCount()).toBe(2);
+    const page2 = new Page('Pride', 'and Predu');
+    expect(page2.wordCount()).toBe(2);
 })
+
+// it("error, testing exception handling", () => {
+//     const page3 = new Page('Pride');
+//     expect().toThrow('Invalid Instaniation');
+// })
